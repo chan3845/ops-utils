@@ -60,5 +60,5 @@ Tested with Zabbix 7.0
 You can customize agent config further in /etc/zabbix/zabbix_agentd.conf
 
 ## 🙋‍♂️ Contribution
-Feel free to open issues or submit pull requests to support more OS types, improve error handling, or add features
+Feel free to open issues or submit pull requests to support more OS types, improve error handling, or add features.
 
