@@ -51,6 +51,7 @@ sudo ./zabbix_agent_installer.sh
 This script includes the following line to enable HostMetadata for auto-registration:
 ```bash
 sed -i 's/^\s*#\s*HostMetadata.*/HostMetadata=linux/' /etc/zabbix/zabbix_agentd.conf
+```
 - By default, it sets HostMetadata=linux.
 - You can change or disable it as needed.
 ```
