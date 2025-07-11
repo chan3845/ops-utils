@@ -57,7 +57,6 @@ sed -i 's/^\s*#\s*HostMetadata.*/HostMetadata=linux/' /etc/zabbix/zabbix_agentd.
 
 #### 📝 Notes
 Tested with Zabbix 7.0
-
 You can customize agent config further in /etc/zabbix/zabbix_agentd.conf
 
 #### 🙋‍♂️ Contribution
