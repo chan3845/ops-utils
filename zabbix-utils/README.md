@@ -33,16 +33,19 @@ This is a **bash script** to install and configure the **Zabbix Agent (v7.0)** a
 ```bash
 git clone https://github.com/your-username/zabbix-agent-installer.git
 cd zabbix-agent-installer
+```
 
 ### 2. Edit the script
 Open the script in a text editor and set your Zabbix server address:
 
 ```bash
 ZABBIX_SERVER="your-zabbix-server-ip-or-hostname"
+```
 
 ### 3. Run the script with root or sudo privileges
 ```bash
 sudo ./zabbix_agent_installer.sh
+```
 
 ### 4. HostMetadata (Optional)
 This script includes the following line to enable HostMetadata for auto-registration:
