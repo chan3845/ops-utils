@@ -1,6 +1,6 @@
 # 🖥️ Zabbix Agent Installer Script
 
-This is a **bash script** to install and configure the **Zabbix Agent (v7.0)** automatically on various Linux distributions. It supports Debian-based and RHEL-based systems and ensures proper repository setup, firewall configuration, and agent registration with the Zabbix server.
+This is a **bash script** to install and configure the **Zabbix Agent for Zabbix server 7.0 LTS** automatically on various Linux distributions. It supports Debian-based and RHEL-based systems and ensures proper repository setup, firewall configuration, and agent registration with the Zabbix server.
 
 ---
 
@@ -31,8 +31,8 @@ This is a **bash script** to install and configure the **Zabbix Agent (v7.0)** a
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/zabbix-agent-installer.git
-cd zabbix-agent-installer
+git clone https://github.com/chan3845/ops-utils.git
+cd ops-utils/zabbix-utils/
 ```
 
 ### 2. Edit the script
@@ -56,8 +56,8 @@ sed -i 's/^\s*#\s*HostMetadata.*/HostMetadata=linux/' /etc/zabbix/zabbix_agentd.
 - You can change or disable it as needed.
 
 ## 📝 Notes
-Tested with Zabbix 7.0
-You can customize agent config further in /etc/zabbix/zabbix_agentd.conf
+Tested with Zabbix 7.0 LTS. 
+You can customize agent config further in `/etc/zabbix/zabbix_agentd.conf`. 
 
 ## 🙋‍♂️ Contribution
 Feel free to open issues or submit pull requests to support more OS types, improve error handling, or add features.
