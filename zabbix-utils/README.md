@@ -31,8 +31,8 @@ This is a **bash script** to install and configure the **Zabbix Agent (v7.0)** a
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/zabbix-agent-installer.git
-cd zabbix-agent-installer
+git clone https://github.com/chan3845/ops-utils.git
+cd ops-utils/zabbix-utils/
 ```
 
 ### 2. Edit the script
