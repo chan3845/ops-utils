@@ -1,6 +1,6 @@
 # 🖥️ Zabbix Agent Installer Script
 
-This is a **bash script** to install and configure the **Zabbix Agent (v7.0)** automatically on various Linux distributions. It supports Debian-based and RHEL-based systems and ensures proper repository setup, firewall configuration, and agent registration with the Zabbix server.
+This is a **bash script** to install and configure the **Zabbix Agent for Zabbix server 7.0 LTS** automatically on various Linux distributions. It supports Debian-based and RHEL-based systems and ensures proper repository setup, firewall configuration, and agent registration with the Zabbix server.
 
 ---
 
