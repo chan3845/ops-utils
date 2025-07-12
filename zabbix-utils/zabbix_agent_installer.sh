@@ -38,6 +38,7 @@ if [[ "$OS" == "ubuntu" || "$OS" == "debian" ]]; then
     dpkg -i zabbix-release_latest_$AGENT_VERSION+${OS}${VER}_all.deb
     apt update
     apt install -y zabbix-agent
+    ufw allow 10050/tcp
 
 elif [[ "$OS" == "centos" || "$OS" == "oracle" || "$OS" == "rhel" || "$OS" == "rocky" ]]; then
     exclude_zabbix_from_epel
